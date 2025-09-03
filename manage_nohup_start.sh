@@ -4,7 +4,7 @@
 APP_NAME=$2
 
 if [ -z "$APP_NAME" ]; then
-    echo "❌ 请输入 Python 文件名，例如: $0 start vehicle_recog_feiyi_final_v3_local_test.py"
+    echo "❌ 请输入 Python 文件名，例如: $0 start train_cls.py"
     exit 1
 fi
 
